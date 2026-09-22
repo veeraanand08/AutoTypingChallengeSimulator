@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>autotyper</name>
+  <version>0.1.0</version>
+  <description>Autonomous typing node for the URC autotyping simulator</description>
+  <maintainer email="team6@example.com">Team 6</maintainer>
+  <license>MIT</license>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>tf2_ros</depend>
+  <depend>autotype_msgs</depend>
+  <export><build_type>ament_python</build_type></export>
+</package>

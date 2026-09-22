@@ -1,0 +1,18 @@
+{"t": 1789858192.823, "episode": 0, "event": "recovered", "lost_for": 0.20037603378295898}
+{"t": 1789858192.823, "episode": 0, "event": "episode_start", "launch_key": "ROVER", "q": [-0.001481276651715556, 1.483347374516322, -1.9718077279266586, -9.205466163135716e-05, -0.00257430028166528]}
+{"t": 1789858192.8247, "episode": 0, "event": "state", "frm": "wait_data", "to": "look_coarse"}
+{"t": 1789858193.4964, "episode": 0, "event": "state", "frm": "look_coarse", "to": "plan_observation"}
+{"t": 1789858194.01, "episode": 0, "event": "state", "frm": "plan_observation", "to": "move", "goal": [5.0, 54.0, -86.5], "after": "look_fine"}
+{"t": 1789858196.3321, "episode": 0, "event": "state", "frm": "move", "to": "look_fine"}
+{"t": 1789858196.4863, "episode": 0, "event": "retry", "why": "fine look failed", "attempt": 1}
+{"t": 1789858196.4914, "episode": 0, "event": "state", "frm": "look_fine", "to": "look_fine"}
+{"t": 1789858196.738, "episode": 0, "event": "retry", "why": "fine look failed", "attempt": 2}
+{"t": 1789858196.739, "episode": 0, "event": "state", "frm": "look_fine", "to": "look_fine"}
+{"t": 1789858196.9075, "episode": 0, "event": "retry", "why": "fine look failed", "attempt": 3}
+{"t": 1789858196.9101, "episode": 0, "event": "state", "frm": "look_fine", "to": "look_fine"}
+{"t": 1789858197.1354, "episode": 0, "event": "retry", "why": "fine look failed", "attempt": 4}
+{"t": 1789858197.1375, "episode": 0, "event": "failure", "reason": "could not get a fine panel estimate", "state": "look_fine"}
+{"t": 1789858197.1443, "episode": 0, "event": "state", "frm": "look_fine", "to": "finish"}
+{"t": 1789858197.174, "episode": 0, "event": "done_published", "presses": []}
+{"t": 1789858197.2724, "episode": 0, "event": "result", "seed": 11, "target": "ROVER", "typed": "", "exact_match": false, "edit_distance": 5, "elapsed": 14.910850763320923}
+{"t": 1789858197.2724, "episode": 1, "event": "all_done"}

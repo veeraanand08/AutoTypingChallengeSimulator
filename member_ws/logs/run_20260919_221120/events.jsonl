@@ -1,0 +1,19 @@
+{"t": 1789855880.3201, "episode": 0, "event": "recovered", "lost_for": 0.049428701400756836}
+{"t": 1789855880.3201, "episode": 0, "event": "episode_start", "launch_key": "ROVER", "q": [0.000825654770290484, 1.4832064536557525, -1.9712899005122844, -0.00016489209862858323, -0.001245568908943208]}
+{"t": 1789855880.3222, "episode": 0, "event": "state", "frm": "wait_data", "to": "look_coarse"}
+{"t": 1789855880.8719, "episode": 0, "event": "state", "frm": "look_coarse", "to": "plan_observation"}
+{"t": 1789855881.2204, "episode": 0, "event": "recovered", "lost_for": 0.10091733932495117}
+{"t": 1789855881.6222, "episode": 0, "event": "state", "frm": "plan_observation", "to": "move", "goal": [4.5, 43.5, -66.5], "after": "look_fine"}
+{"t": 1789855884.3867, "episode": 0, "event": "state", "frm": "move", "to": "look_fine"}
+{"t": 1789855884.6076, "episode": 0, "event": "retry", "why": "fine look failed", "attempt": 1}
+{"t": 1789855884.6087, "episode": 0, "event": "state", "frm": "look_fine", "to": "look_fine"}
+{"t": 1789855884.7587, "episode": 0, "event": "retry", "why": "fine look failed", "attempt": 2}
+{"t": 1789855884.7614, "episode": 0, "event": "state", "frm": "look_fine", "to": "look_fine"}
+{"t": 1789855884.9084, "episode": 0, "event": "retry", "why": "fine look failed", "attempt": 3}
+{"t": 1789855884.9098, "episode": 0, "event": "state", "frm": "look_fine", "to": "look_fine"}
+{"t": 1789855885.0124, "episode": 0, "event": "retry", "why": "fine look failed", "attempt": 4}
+{"t": 1789855885.0266, "episode": 0, "event": "failure", "reason": "could not get a fine panel estimate", "state": "look_fine"}
+{"t": 1789855885.0344, "episode": 0, "event": "state", "frm": "look_fine", "to": "finish"}
+{"t": 1789855885.0377, "episode": 0, "event": "done_published", "presses": []}
+{"t": 1789855885.1209, "episode": 0, "event": "result", "seed": 4, "target": "ROVER", "typed": "", "exact_match": false, "edit_distance": 5, "elapsed": 11.140742540359497}
+{"t": 1789855885.1209, "episode": 1, "event": "all_done"}

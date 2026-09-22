@@ -1,0 +1,2 @@
+episode,seed,target,typed,exact_match,edit_distance,presses_attempted,presses_accepted,rejections,sim_elapsed_s,our_elapsed_s
+0,10,ROVER,ROVER,True,0,5,5,,15.41,10.67

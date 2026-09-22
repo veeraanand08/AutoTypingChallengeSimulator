@@ -1,0 +1,2 @@
+episode,seed,target,typed,exact_match,edit_distance,presses_attempted,presses_accepted,rejections,sim_elapsed_s,our_elapsed_s
+0,2,TESTNG,TESTNG,True,0,6,6,,17.21,13.96

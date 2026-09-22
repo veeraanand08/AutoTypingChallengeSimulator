@@ -1,0 +1,10 @@
+{"t": 1789855173.1118, "episode": 0, "event": "recovered", "lost_for": 0.02313232421875}
+{"t": 1789855173.1118, "episode": 0, "event": "episode_start", "launch_key": "ROVER", "q": [-0.00928742242367758, 1.475395749298774, -1.9785796599592074, 0.004992922905898126, 0.003688542360206167]}
+{"t": 1789855173.1139, "episode": 0, "event": "state", "frm": "wait_data", "to": "look_coarse"}
+{"t": 1789855173.9975, "episode": 0, "event": "state", "frm": "look_coarse", "to": "plan_observation"}
+{"t": 1789855175.4948, "episode": 0, "event": "state", "frm": "plan_observation", "to": "move", "goal": [1.100000023841858, 52.0, -83.0], "after": "look_fine"}
+{"t": 1789855205.5135, "episode": 0, "event": "failure", "reason": "move timed out", "state": "move"}
+{"t": 1789855205.5156, "episode": 0, "event": "state", "frm": "move", "to": "finish"}
+{"t": 1789855205.5677, "episode": 0, "event": "done_published", "presses": []}
+{"t": 1789855210.5622, "episode": 0, "event": "no_result"}
+{"t": 1789855210.5622, "episode": 1, "event": "all_done"}

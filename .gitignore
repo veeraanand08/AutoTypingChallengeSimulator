@@ -15,7 +15,4 @@ __pycache__/
 *.pyc
 .pytest_cache/
 
-# Workspace created by the quick start and bind-mounted into the dev container
-member_ws/
-
 .DS_Store

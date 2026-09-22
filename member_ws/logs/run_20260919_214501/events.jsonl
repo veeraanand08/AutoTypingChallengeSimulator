@@ -1,0 +1,8 @@
+{"t": 1789854302.077, "episode": 0, "event": "recovered", "lost_for": 0.5492267608642578}
+{"t": 1789854302.1281, "episode": 0, "event": "episode_start", "launch_key": "ROVER", "q": [0.00015795446681119896, 1.4837884017607783, -1.9718744910365706, 0.0007045527393174241, 0.0008006831373811994]}
+{"t": 1789854302.1299, "episode": 0, "event": "state", "frm": "wait_data", "to": "look_coarse"}
+{"t": 1789854312.1784, "episode": 0, "event": "failure", "reason": "coarse look timed out with no result", "state": "look_coarse"}
+{"t": 1789854312.1813, "episode": 0, "event": "state", "frm": "look_coarse", "to": "finish"}
+{"t": 1789854312.2278, "episode": 0, "event": "done_published", "presses": []}
+{"t": 1789854312.2841, "episode": 0, "event": "result", "seed": 1, "target": "ROVER", "typed": "", "exact_match": false, "edit_distance": 5, "elapsed": 44.118043661117554}
+{"t": 1789854312.2841, "episode": 1, "event": "all_done"}
